@@ -8,7 +8,7 @@ Test data size - 1.8 GB
 
 For downloading images from google images - https://github.com/hardikvasa/google-images-download
 I could not get it working on my laptop. 
-Used the following to download images using this command - 
+Used the following command to download images - 
 
-python3 bing_scraper.py --url 'https://www.bing.com/images/search?q=flowers' --limit 10 --download --chromedriver /Users/glennjocher/Downloads/chromedriver
+python3 bing_scraper.py --url 'https://www.bing.com/images/search?q=flowers' --limit 10 --download --chromedriver <path to chromedriver>
 
